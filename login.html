@@ -47,30 +47,19 @@
     </header>
 
     <main>
-        <!--Banner-->
-        <section id= "Banner" class="banner">
-            <img id="quaresma" src="imagens\quaresma.png">
-            <img id="dizimo" src="imagens\dizimo.png">
-            <img id="doe" src="imagens\doacao.png">
-
-            <div>
-                <H4>PEDIDOS DE ORAÇÃO</H4>
-                <label>
-                    <span>Contato: zap ou e-mail</span>
-                    <input type="text" name="nome">
-                </label>
-                <label>
-                    <span>Intenções</span>
-                    <textarea name="solicitacao"  cols="25" rows="5"></textarea>
-                    <span>Até 255 letras</span>
-                </label>
-                <input type="submit" name="enviar" title="Enviar" value="Enviar"/>
-                <input type="submit" name="limpar" title="Limpar" value="Limpar"/>
-            </div>
-            <img id="banner" src="imagens\igrejamatriz.png">
-            <img id="acaosocial" src="imagens\acaosocial.png">
-            <a href="publicacoes.html"> <img id="eventos" src="imagens\eventos.png"> </a>
-        </section>
+        <div>
+            <form action="admin.html" method="post">
+                <br><h3>Faça seu Login</h3>
+                <label>Usuário</label><br>
+                <input type="text" name="f_username" id="f_username"><br>
+                <br><label>Senha</label>
+                <br><input type="password" name="f_senha" id="f_senha"><br><br>
+                <button id="Login">Login</button>
+                <button type="reset">Limpar</button>
+                <br>
+                <br>
+            </form>
+        </div>
     </main>
 
     <!--Rodapé-->
